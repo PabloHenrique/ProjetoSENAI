@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v960-ning-30.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=63dd5f402645ef52fb7dfb592aec765a) no-repeat;
+    margin-left: auto; margin-right: auto;
+}
+
+.main{
+    width: 80%;
+    height: 100%;
+    background-color: rgba(255, 5, 5, 0.322);
+    padding-top: 5%;
+}
+
+a .link-pages, li{
+    text-decoration: none;
+    border: none;
+    list-style: none;
+}
+
+.p-title{
+    font-size: 22pt;
+    text-align: center;
+}
+
+.p-subtitle{
+    font-size: 18pt;
+    text-align: center;
+}
+
+i{
+    font-size: 50pt;
+}
+
+.col{
+    padding-top: 1%;
+    border: 1px solid gray;
+    text-align: center;
+}
+
+.option-link-pages{
+    text-align: center;
+    padding: 25px 2px 1px 2px;
+}
+
+footer{
+    margin-top: 40%;
+    padding-top: 2px;
+    font-style: italic;
+    text-align: center;
+    border-top: 1px solid gray;
+}
