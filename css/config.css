@@ -1,0 +1,58 @@
+:root{
+    /*
+        -- Paleta de cores - Tons de Azul
+    */
+    --Blue000: #0A2463;
+    --Blue100: #0D3082;
+    --Blue200: #0F3795;
+    --Blue300: #113EA7;
+    --Blue400: #113EA7;
+    --Blue500: #144BCC;
+    --Blue600: #1652DF;
+    --Blue700: #205CE9;
+
+    /*
+        -- Paleta de cores - Tons de Vermelho
+    */
+    --Red000: #FB3640;
+    --Red100: #FB4B54;
+    --Red200: #FC5F67;
+    --Red300: #FC737A;
+    --Red400: #FD878D;
+    --Red500: #FD9B9F;
+    --Red600: #FDAFB2;
+    --Red700: #FDC3C5;
+    /*
+        -- Paleta de cores - Tons de Cinza
+    */
+    --Gray000: #605F5E;
+    --Gray100: #71706F;
+    --Gray200: #7C7A79;
+    --Gray300: #868483;
+    --Gray400: #908E8E;
+    --Gray500: #9A9898;
+    --Gray600: #A4A2A2;
+    --Gray700: #AEADAD;
+    /*
+        -- Paleta de cores - Tons de Azul Claro
+    */
+    --CeladonBlue000: #247BA0;
+    --CeladonBlue100: #2A8CB7;
+    --CeladonBlue200: #2D99C8;
+    --CeladonBlue300: #37A3D2;
+    --CeladonBlue400: #48ABD5;
+    --CeladonBlue500: #59B3D9;
+    --CeladonBlue600: #69BADD;
+    --CeladonBlue700: #7AC2E1;
+    /*
+        -- Paleta de cores - Tons de Platina
+    */
+    --Platinum000: #E2E2E2;
+    --Platinum100: #E0E0E0;
+    --Platinum200: #D6D6D6;
+    --Platinum300: #CCCCCC;
+    --Platinum400: #C2C2C2;
+    --Platinum500: #B8B8B8;
+    --Platinum600: #ADADAD;
+    --Platinum700: #A3A3A3;
+}
