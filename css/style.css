@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+/*
+    -- Estilização Global - Main
+*/
 *{
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
@@ -7,18 +10,65 @@
     box-sizing: border-box;
 }
 
+/*
+    -- Estilização Conteúdo
+*/
 body{
     display: flex;
-    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v960-ning-30.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=63dd5f402645ef52fb7dfb592aec765a) no-repeat;
-    margin-left: auto; margin-right: auto;
+}
+
+.corpo-main{
+    background-color: #0A2463;
 }
 
 .main{
-    width: 80%;
-    height: 100%;
-    background-color: rgba(255, 5, 5, 0.322);
-    padding-top: 5%;
+    background-color: #FFFFFF;
+    width: 1462px;
+    height: auto;
 }
+
+/*
+    -- Estilização Nav-Bar
+*/
+
+.container-fluid{
+    align-items: flex-end;
+}
+
+.itens-navbar{
+    font-size: 18px;
+    padding: 2%;
+}
+.navbar{
+    margin-bottom: 45px;
+}
+
+.logo-senai{
+    position: static;
+}
+
+.init-nav{
+    justify-content: space-between;
+}
+
+@media (max-width: 800px) {
+    .logo-senai{
+        width: 425px;
+        height: 67px;
+    }
+}
+
+@media (max-width: 600px) {
+    .logo-senai{
+        width: 318px;
+        height: 50px;
+    }
+}
+
+
+/*
+    -- Estilização Conteúdo - Main
+*/
 
 .link-pages, li{
     text-decoration: none;
@@ -33,15 +83,21 @@ a, .link-pages, li:hover{
 }
 
 .p-title{
-    font-size: 22pt;
+    font-size: 20px;
     text-align: center;
 }
 
+.red-text{
+    color: red;
+}
+
 .p-subtitle{
-    font-size: 18pt;
+    font-size: 22px;
     text-align: center;
 }
+
 i{
+    margin-top: 20%;
     font-size: 250%;
 }
 
@@ -51,9 +107,10 @@ i{
 
 .col{
     padding-top: 1%;
-    background-color: rgb(93, 102, 155);
-    border: 1px solid rgb(72, 87, 167);
+    background-color: #9A9998;
     text-align: center;
+    width: 250px; height: 206px;
+    border-radius: 33px;
     margin-left: 4%; margin-right: 4%;
     box-shadow: 2px 2px 18px solid black;
 }
@@ -61,12 +118,21 @@ i{
 .option-link-pages{
     text-align: center;
     padding: 25px 2px 1px 2px;
+    color: white;
+    font-style: bold;
+    margin: auto;
 }
 
+/*
+    -- Estilização Rodapé - Main
+*/
+
 footer{
-    margin-top: 40%;
-    padding-top: 2px;
+    padding-top: 10px; padding-bottom: 5px;
     font-style: italic;
     text-align: center;
     border-top: 1px solid gray;
+}
+.p-footer{
+    margin-top: 40px 10px 10px 20px;
 }
