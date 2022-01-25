@@ -14,42 +14,57 @@
             <p class="p-title">Bem vindo!</h1>
             <p class="p-subtitle">O que você deseja fazer?</p>
             <ul>
-                <div class="container">
+                <div class="container grid">
                     <div class="row">
                         <div class="col">
-                            <li class="option-link-pages"><a class="link-pages" href="https://ead.sp.senai.br/">Ir para o curso EAD</a></li>
+                            <a class="link-pages" onclick="goCalcular()">
+                                <i class="fas fa-calculator"></i>
+                                <li class="option-link-pages">
+                                    <p>Ir para SenaiEAD</p>
+                                </li>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a class="link-pages" onclick="goCalcular()">
+                                <i class="fas fa-calculator"></i>
+                                <li class="option-link-pages">
+                                    <p>Conceitos Importantes</p>
+                                </li>
+                            </a> 
+                        </div>
+                        <div class="col">
+                            <a class="link-pages" onclick="goCalcular()">
+                                <i class="fas fa-calculator"></i>
+                                <li class="option-link-pages">
+                                    <p>Realizar Cálculos</p>
+                                </li>
+                            </a>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col">
-                            <label>
+                        <div class="col">   
+                            <a class="link-pages" onclick="goCalcular()">
                                 <i class="fas fa-calculator"></i>
                                 <li class="option-link-pages">
-                                    <a class="link-pages" onclick="goCalcular()">
-                                        Calcular grandezas elétricas
-                                    </a>
+                                    <p>Converter grandezas elétricas</p>
                                 </li>
-                            </label>
+                            </a> 
                         </div>
                         <div class="col">
-                            <label>
+                            <a class="link-pages" onclick="goFormulas()">
                                 <i class="fas fa-book"></i>
                                 <li class="option-link-pages">
-                                    <a class="link-pages" onclick="goFormulas()">
-                                    Fórmulas
-                                    </a>
+                                    <p>Fórmulas</p>
                                 </li>
-                            </label>
+                            </a>
                         </div>
                         <div class="col">
-                            <label for="link-about">
+                            <a class="link-pages" onclick="goAbout()">
                                 <i class="far fa-address-card"></i>
                                 <li class="option-link-pages">
-                                    <a id="link-about" class="link-pages" onclick="goAbout()">
-                                        Sobre o site
-                                    </a>
+                                    <p>Sobre o site</p>
                                 </li>
-                            </label>
+                            </a>
                         </div>
                     </div>
                     </div>

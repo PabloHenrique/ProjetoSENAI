@@ -20,10 +20,16 @@ body{
     padding-top: 5%;
 }
 
-a .link-pages, li{
+.link-pages, li{
     text-decoration: none;
     border: none;
     list-style: none;
+    color: black;
+    transition: 1s;
+}
+
+a, .link-pages, li:hover{
+    background-color: none;
 }
 
 .p-title{
@@ -35,15 +41,21 @@ a .link-pages, li{
     font-size: 18pt;
     text-align: center;
 }
-
 i{
-    font-size: 50pt;
+    font-size: 250%;
+}
+
+.row{
+    padding: 5%;
 }
 
 .col{
     padding-top: 1%;
-    border: 1px solid gray;
+    background-color: rgb(93, 102, 155);
+    border: 1px solid rgb(72, 87, 167);
     text-align: center;
+    margin-left: 4%; margin-right: 4%;
+    box-shadow: 2px 2px 18px solid black;
 }
 
 .option-link-pages{
